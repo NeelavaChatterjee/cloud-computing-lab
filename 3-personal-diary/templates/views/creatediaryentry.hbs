@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dictionary</title>
+    <link rel="icon" href="img/weather.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+
+        <p>Make your diary entry below!</p>
+
+        <form>
+            <textarea placeholder="Write here" rows="15" cols="100"></textarea>
+            <button>Submit</button>
+        </form>
+
+        <div id="message-1">
+
+        </div>
+
+    </div>
+
+    {{>footer}}
+    
+    <script src="js/creatediaryentry.js"></script>
+</body>
+</html>
